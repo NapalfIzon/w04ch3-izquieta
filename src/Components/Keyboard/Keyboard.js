@@ -1,3 +1,4 @@
+import "./Keyboard.css";
 const Keyboard = () => {
   const detectKey = (event) => {};
 

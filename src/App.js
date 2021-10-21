@@ -1,11 +1,12 @@
 import "./App.css";
+import Info from "./Components/Info/Info";
 import Keyboard from "./Components/Keyboard/Keyboard";
 
 function App() {
   return (
     <>
       <div className="container">
-        <span className="message">Calling...</span>
+        <Info isHidden={true} />
         <main className="phone">
           <Keyboard />
           <div className="actions">
